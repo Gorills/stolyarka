@@ -25,7 +25,9 @@ Route::get('/stroitelstvo/derevyannye-doma', function () {
 Route::get('/stroitelstvo', function () {
     return view('stroitelstvo');
 });
-
+Route::get('/stolyarnaya-masterskaya', function () {
+    return view('stolyarnaya-masterskaya');
+});
 
 
 Auth::routes();

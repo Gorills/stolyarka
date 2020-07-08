@@ -6,16 +6,24 @@
     </div>
 </div>
 <div class="header__closer"></div>
-
+<?php $home = '/' ?>
 
 <header class="header">
     <div class="container">
         <div class="header__inner">
 
-            <a href="{{ url('/') }}" class="header__logo-link">
-                <img src="{{ URL::asset('images/logo.png') }}" alt="" class="header__logo">
-            </a>
+            @if($home == $_SERVER['REQUEST_URI'])
 
+                <img src="{{ URL::asset('images/logo.png') }}" alt="logo" class="header__logo">
+
+
+            @else
+                <a href="{{ url('/') }}" class="header__logo-link">
+                    <img src="{{ URL::asset('images/logo.png') }}" alt="" class="header__logo">
+                </a>
+            @endif
+
+         
 
             <nav class="header__nav" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
                 <ul class="header__list" itemprop="about" itemscope="" itemtype="http://schema.org/ItemList">
