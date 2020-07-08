@@ -23,7 +23,7 @@
                 </a>
             @endif
 
-         
+
 
             <nav class="header__nav" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
                 <ul class="header__list" itemprop="about" itemscope="" itemtype="http://schema.org/ItemList">

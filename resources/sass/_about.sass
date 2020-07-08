@@ -13,11 +13,15 @@
         display: flex
         justify-content: space-between
         margin-top: 40px
-
+        @media only screen and (max-width: 480px)
+            flex-direction: column
     // .about__column
 
     &__column + &__column
         margin-left: 35px
+        @media only screen and (max-width: 480px)
+            margin-left: 0
+            margin-top: 35px
 
     // .about__text
 
