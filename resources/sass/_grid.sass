@@ -1,0 +1,105 @@
+.grid
+    width: 100%
+    margin: 0 auto
+    padding: 40px 0
+    // .grid__inner
+
+    &__inner
+        width: 100%
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
+        justify-content: center
+        align-items: center
+        margin: 0 auto
+        grid-gap: 20px
+    // .grid__item
+
+    &__item
+
+        padding: 20px
+        border: 1px solid
+        background-color: $backgroung-light
+        .slick-2
+            width: 100%
+            max-width: 300px
+            margin: 0 auto
+    // .grid__wrapper
+
+    &__wrapper
+        width: 100%
+        overflow: hidden
+        margin: 0 auto
+    // .grid__img
+
+    &__img
+        width: 100%
+    // .grid__text
+
+    &__text
+        margin-top: 20px
+    // .grid__title
+
+    &__title
+        text-align: center
+        font-size: 18px
+        margin-bottom: 20px
+    // .grid__param
+
+    &__param
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+        grid-gap: 20px
+        align-items: center
+        justify-content: start
+    // .grid__param-wrap
+
+    &__param-wrap
+        display: flex
+        align-items: center
+        justify-content: flex-start
+    // .grid__icon
+
+    &__icon
+        margin-right: 20px
+        font-size: 35px
+    // .grid__param-text
+
+    &__param-text
+
+    // .grid__param-bold
+
+    &__param-bold
+        font-weight: 700
+        color: $accent-color
+    // .grid__price-block
+
+    &__price-block
+        margin-top: 40px
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+
+    // .grid__price
+
+    &__price
+        font-weight: 700
+        font-size: 20px
+        width: 50%
+        color: $accent-color
+
+    &__btn
+        display: inline-block
+
+        font-weight: 700
+        border-radius: 0
+        padding: 8px 10px
+        text-decoration: none
+        border: $border
+        transition: $transition
+
+        color: #ffffff
+        background-color: $accent-color
+        &:hover
+            color: $color-fonts
+            background-color: $backgroung-overdark

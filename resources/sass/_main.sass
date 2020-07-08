@@ -1,0 +1,42 @@
+.main
+    width: 100%
+    margin: 0 auto
+    padding: 40px 0
+    background-color: #f1f1f1
+    // .main__inner
+
+    &__inner
+        width: 100%
+        margin: 0 auto
+    // .main__row
+
+    &__row
+        text-align: center
+        margin-top: 40px
+        display: flex
+        justify-content: space-between
+    // .main__item
+
+    &__item
+        background-color: #fff
+        display: inline-block
+        border: $border
+        //min-height: 250px
+        padding: 20px
+        text-align: center
+        width: 100%
+        max-width: 350px
+    &__item + &__item
+        margin-left: 20px
+    // .main__icon
+
+    &__icon
+        font-size: 90px
+        transition: $transition
+        margin-bottom: 20px
+        &:hover
+            color: $accent-color
+    // .main__text
+
+    &__text
+        font-size: 18px

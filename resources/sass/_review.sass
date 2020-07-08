@@ -1,0 +1,120 @@
+.review
+    margin: 0 auto
+    width: 100%
+    padding: 100px 0 0
+    // .review__inner
+
+    &__inner
+        width: 100%
+        margin: 0 auto
+
+    // .review__wrap
+
+    &__wrap
+        margin-top: 40px
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin-bottom: 50px
+        @media only screen and (max-width: 768px)
+            flex-direction: column
+            align-items: center
+    @media only screen and (max-width: 768px)
+        &__card + &__card
+            margin-top: 20px
+    // .review__card
+
+    &__card
+        width: 350px
+        height: 500px
+
+        position: relative
+        perspective: 1000px
+
+
+        &:hover .review__front
+            transform: rotateY(180deg)
+        &:hover .review__back
+            transform: rotateY(360deg)
+    // .review__front
+
+    &__front, &__back
+
+        position: absolute
+        width: 100%
+        height: 100%
+        left: 0
+        top: 0
+        display: flex
+        justify-content: center
+        align-items: center
+        transition: $transition
+        backface-visibility: hidden
+        flex-direction: column
+        text-align: start
+    &__front
+        background-color: #f7f7f7
+        padding: 25px 25px
+    // .review__back
+
+    &__back
+        overflow: hidden
+        transform: rotateY(180deg)
+
+    // .review__card-wrapper
+
+    &__card-wrapper
+        margin-bottom: 20px
+        padding-left: 50px
+        text-align: center
+        position: relative
+        width: 100%
+        display: block
+        &::before
+            position: absolute
+            left: 0
+            top: 0
+            content: '\201C'
+            font-size: 70px
+            line-height: 1
+            color: $accent-color
+    // .review__card-title
+
+    &__card-title
+
+        display: block
+        font-size: 36px
+        text-align: start
+    // .review__text
+
+    &__text
+        margin-bottom: 40px
+        display: block
+
+    // .review__card-client
+
+    &__card-client
+        width: 100%
+        position: relative
+
+
+    // .review__name
+
+    &__name
+
+        font-size: 18px
+        text-transform: uppercase
+        margin-bottom: 10px
+    // .review__status
+
+    &__status
+
+
+    &__img
+        left: 0
+        top: 0
+        width: 100%
+        height: 100%
+        transform: none
+        object-fit: cover
+        object-position: center center
