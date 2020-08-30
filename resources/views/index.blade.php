@@ -34,7 +34,7 @@
             </div>
 
         </div>
-        <img src="{{ asset('images/banner/1.jpg') }}" alt="Настройка контекстной рекламы в Томске" class="start__img">
+        <img src="{{ asset('images/banner/1.jpg') }}" alt="Дома из бруса" class="start__img">
 
     </div>
 
@@ -42,7 +42,7 @@
         <div class="start__item">
             <div class="container">
                 <div class="start__text-block">
-                    <p>Дома из бруса</p>
+                    <p>Бани из дерева</p>
 
                 </div>
                 <a href="#" class="btn btn__accent">Подробнее</a>
@@ -51,7 +51,7 @@
             </div>
 
         </div>
-        <img src="{{ asset('images/banner/2.jpg') }}" alt="Настройка контекстной рекламы в Томске" class="start__img">
+        <img src="{{ asset('images/banner/2.jpg') }}" alt="Бани из дерева" class="start__img">
 
     </div>
 
@@ -59,7 +59,7 @@
         <div class="start__item">
             <div class="container">
                 <div class="start__text-block">
-                    <p>Дома из бруса</p>
+                    <p>Столярная мастерская</p>
 
                 </div>
                 <a href="#" class="btn btn__accent">Подробнее</a>
@@ -68,7 +68,7 @@
             </div>
 
         </div>
-        <img src="{{ asset('images/banner/3.jpg') }}" alt="Настройка контекстной рекламы в Томске" class="start__img">
+        <img src="{{ asset('images/banner/3.jpg') }}" alt="Столярная мастерская" class="start__img">
 
     </div>
 
@@ -88,11 +88,11 @@
 
             <div class="offer__row">
 
-                <a href="{{ url('/stroitelstvo/derevyannye-doma') }}" class="offer__item offer__item--one">
-                    <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="ремонт квартир" class="offer__img">
+                <a href="{{ url('/stroitelstvo/doma-iz-brusa') }}" class="offer__item offer__item--one">
+                    <img src="{{ URL::asset('images/offer/dom-iz-brusa.jpg') }}" alt="ремонт квартир" class="offer__img">
 
                     <div class="offer__text-block">
-                        <p class="offer__text">Деревянные дома</p>
+                        <p class="offer__text">Дома из бруса</p>
 
                         <div class="offer__box-arrow">
 
@@ -102,21 +102,9 @@
 
                 </a>
 
-                <a href="{{ url('/') }}" class="offer__item offer__item--two">
-                    <img src="{{ URL::asset('images/offer/2.jpg') }}" alt="Отделка балконов" class="offer__img">
 
-                    <div class="offer__text-block">
-                        <p class="offer__text">Каркасные дома</p>
 
-                        <div class="offer__box-arrow">
-
-                        </div>
-
-                    </div>
-
-                </a>
-
-                <a href="{{ url('/') }}" class="offer__item offer__item--tree">
+                <a href="{{ url('/stroitelstvo/derevyannye-bani') }}" class="offer__item offer__item--two">
                     <img src="{{ URL::asset('images/offer/3.jpg') }}" alt="Отделка стен" class="offer__img">
 
                     <div class="offer__text-block">
@@ -130,49 +118,9 @@
 
                 </a>
 
-                <a href="{{ url('/') }}" class="offer__item offer__item--for">
-                    <img src="{{ URL::asset('images/offer/4.jpg') }}" alt="Отделка потолков" class="offer__img">
 
-                    <div class="offer__text-block">
-                        <p class="offer__text">Гаражи из дерева</p>
 
-                        <div class="offer__box-arrow">
-
-                        </div>
-
-                    </div>
-
-                </a>
-
-                <a href="{{ url('/') }}" class="offer__item offer__item--five">
-                    <img src="{{ URL::asset('images/offer/5.jpg') }}" alt="Отделка полов" class="offer__img">
-
-                    <div class="offer__text-block">
-                        <p class="offer__text">Деревянные беседки</p>
-
-                        <div class="offer__box-arrow">
-
-                        </div>
-
-                    </div>
-
-                </a>
-
-{{--                <a href="{{ url('/otdelka-sanuzlov') }}" class="offer__item offer__item--six">--}}
-{{--                    <img src="{{ URL::asset('images/offer/6.jpg') }}" alt="Отделка санузлов" class="offer__img">--}}
-
-{{--                    <div class="offer__text-block">--}}
-{{--                        <p class="offer__text">Отделка санузлов</p>--}}
-
-{{--                        <div class="offer__box-arrow">--}}
-
-{{--                        </div>--}}
-
-{{--                    </div>--}}
-
-{{--                </a>--}}
-
-                <a href="{{ url('/') }}" class="offer__item offer__item--seven">
+                <a href="{{ url('/stolyarnaya-masterskaya') }}" class="offer__item offer__item--tree">
                     <img src="{{ URL::asset('images/offer/7.jpg') }}" alt="Ремонт офисов" class="offer__img">
 
                     <div class="offer__text-block">
@@ -205,7 +153,7 @@
 
                 <div class="why__item">
                     <i class="why__icon fa fa-universal-access"></i>
-                    <p class="why__text">Опыт работы нашей компании составляет 30 лет</p>
+                    <p class="why__text">Опыт работы нашей компании составляет 10 лет</p>
                 </div>
 
                 <div class="why__item">
@@ -234,13 +182,27 @@
             <div class="about__row">
                 <div class="about__column">
                     <p class="about__text">
-                        «Столярная мастерская №1» – это одно из самых больших столярных производств Волгоградского региона. Начав свою работу в далеком 1987-м году, мы по сей день остаемся верны своим первоначальным принципам: высокое мастерство, открытость новым идеям и следование безупречному качеству.
-                        Столярное мастерство – это особая отрасль, которая не терпит халатного подхода и неискреннего отношения.
+                        Всем привет! Мы совсем недавно открывшаяся компания, но у нас уже есть огромный опыт работы в сфере
+                        деревянного домостроения. В нашей команде есть специалисты по проектированию и дозайнерским решениям, что дает
+                        нам возможность воплотить все ваши задумки визуально. При разработке проекта вашего дома и строительстве мы
+                        отталкиваемся от таких параметров как:
                     </p>
+                    <ul>
+                        <li>Особенности участка, на котором будет стоять ваш дом</li>
+                        <li>Исследования почты и грунта на вашем участке</li>
+                    </ul>
+
                 </div>
                 <div class="about__column">
                     <p class="about__text">
-                        Поэтому в команду «Столярки» входят только проверенные годами опытнейшие мастера, которые не знают слова «невозможно». Ими реализованы проекты подчас головокружительной сложности, и вы можете убедиться в этом в разделе «Портфолио». Выбирая нашу компанию, вы выбираете профессионализм, качество и любовь к своему делу. И сотни наших довольных клиентов – тому подтверждение.
+                        Мы делаем проект вашего дома и наша команда плотников, бетонщиков, кровельщиков, столяров и маляров приступает к
+                        осуществлению вашей мечты!
+                    </p>
+                    <p class="about__text">
+                        Наше преимущество в том, что в нашей команде работают только профессионалы своего дела, которые горят им и готовы
+                        работать до тех пор, пока не доведут проект до совершенства! Так же у нас есть своя собственная
+                        <a href="{{ url('/stolyarnaya-masterskaya') }}">столярная мастерская</a>,
+                        что также дает нам возможность дополнить ваш дом различными изделиями из натурального дерева по эксклюзивным проектам.
                     </p>
                 </div>
             </div>

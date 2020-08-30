@@ -46,7 +46,9 @@
 
 @endcomponent
 
+@component('components.button')
 
+@endcomponent
 
 <script type="application/ld+json"> {
     "@context": "http://schema.org",

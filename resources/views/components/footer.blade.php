@@ -8,7 +8,7 @@
                 </a>
 
                 <p class="footer__text-left">
-                    Строительство домов, бань, гаражей из дерева под ключ. Столярная мастерская.
+                    Строительство домов, бань из дерева под ключ. Столярная мастерская.
                 </p>
 
                 <div class="footer__contacts-wrapper">
@@ -56,22 +56,20 @@
                         <a href="{{ url('/') }}" class="footer__menu-link">Главная</a>
                     </div>
                     <div>
-                        <a href="{{ url('/stroitelstvo/derevyannye-doma') }}" class="footer__menu-link">Деревянные дома</a>
+                        <a href="{{ url('/stroitelstvo/doma-iz-brusa') }}" class="footer__menu-link">Дома из бруса</a>
                     </div>
                     <div>
-                        <a href="{{ url('/') }}" class="footer__menu-link">Каркасные дома</a>
+                        <a href="{{ url('/stroitelstvo/karkasnye-doma') }}" class="footer__menu-link">Каркасные дома</a>
                     </div>
                     <div>
-                        <a href="{{ url('/') }}" class="footer__menu-link">Бани из дерева</a>
+                        <a href="{{ url('/stroitelstvo/derevyannye-bani') }}" class="footer__menu-link">Бани из дерева</a>
+                    </div>
+
+                    <div>
+                        <a href="{{ url('/stroitelstvo/derevyannye-bani/besedki') }}" class="footer__menu-link">Деревянные беседки</a>
                     </div>
                     <div>
-                        <a href="{{ url('/') }}" class="footer__menu-link">Гаражи из дерева</a>
-                    </div>
-                    <div>
-                        <a href="{{ url('/') }}" class="footer__menu-link">Деревянные беседки</a>
-                    </div>
-                    <div>
-                        <a href="{{ url('/') }}" class="footer__menu-link">Столярная мастерская</a>
+                        <a href="{{ url('/stolyarnaya-masterskaya') }}" class="footer__menu-link">Столярная мастерская</a>
                     </div>
 
 

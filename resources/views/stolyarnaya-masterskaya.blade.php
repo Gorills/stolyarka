@@ -15,114 +15,117 @@
 
 
     @component('components.breadcrumb')
-        @slot('title') Столярная мастерская @endslot
+
+            @slot('title') Столярная мастерская @endslot
 
 
 
-        @slot('parent') Главная @endslot
+            @slot('parent') Главная @endslot
+
+
+{{--            @slot('prev') Строительство @endslot--}}
+{{--            @slot('link') {{ url('/stolyarnaya-masterskaya') }} @endslot--}}
 
 
 
+            @slot('active') Столярная мастерская @endslot
+            @slot('activelink')  @endslot
 
-
-        @slot('active') Столярная мастерская @endslot
-
-        @slot('img') {{ URL::asset('images/banner/1.jpg') }} @endslot
+            @slot('img') {{ URL::asset('images/breadcrumbs/stolyarnaya.jpg') }} @endslot
     @endcomponent
 
 
 
-    <div class="offer">
-        <div class="container">
-            <div class="offer__inner">
+    <div class="offer-pos">
+    <div class="container">
+        <div class="offer-pos__inner">
 
 
-                <h2 class="title">Наши услуги</h2>
-                <div class="title__separator"></div>
-
-
-
-                <div class="offer__row">
-
-                    <a href="{{ url('/stroitelstvo/derevyannye-doma') }}" class="offer__item offer__item--one">
-                        <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="ремонт квартир" class="offer__img">
-
-                        <div class="offer__text-block">
-                            <p class="offer__text">Деревянные дома</p>
-
-                            <div class="offer__box-arrow">
-
-                            </div>
-
-                        </div>
-
-                    </a>
-
-                    <a href="{{ url('/') }}" class="offer__item offer__item--two">
-                        <img src="{{ URL::asset('images/offer/2.jpg') }}" alt="Отделка балконов" class="offer__img">
-
-                        <div class="offer__text-block">
-                            <p class="offer__text">Каркасные дома</p>
-
-                            <div class="offer__box-arrow">
-
-                            </div>
-
-                        </div>
-
-                    </a>
-
-                    <a href="{{ url('/') }}" class="offer__item offer__item--tree">
-                        <img src="{{ URL::asset('images/offer/3.jpg') }}" alt="Отделка стен" class="offer__img">
-
-                        <div class="offer__text-block">
-                            <p class="offer__text">Бани из дерева</p>
-
-                            <div class="offer__box-arrow">
-
-                            </div>
-
-                        </div>
-
-                    </a>
-
-                    <a href="{{ url('/') }}" class="offer__item offer__item--for">
-                        <img src="{{ URL::asset('images/offer/4.jpg') }}" alt="Отделка потолков" class="offer__img">
-
-                        <div class="offer__text-block">
-                            <p class="offer__text">Гаражи из дерева</p>
-
-                            <div class="offer__box-arrow">
-
-                            </div>
-
-                        </div>
-
-                    </a>
-
-                    <a href="{{ url('/') }}" class="offer__item offer__item--five">
-                        <img src="{{ URL::asset('images/offer/5.jpg') }}" alt="Отделка полов" class="offer__img">
-
-                        <div class="offer__text-block">
-                            <p class="offer__text">Деревянные беседки</p>
-
-                            <div class="offer__box-arrow">
-
-                            </div>
-
-                        </div>
-
-                    </a>
+            <h2 class="title">Наши услуги</h2>
+            <div class="title__separator"></div>
 
 
 
-                </div>
+            <div class="offer-pos__row">
+
+                <a href="{{ url('/stolyarnaya-masterskaya/derevyannye-lestnicy') }}" class="offer-pos__item">
+                    <img src="{{ URL::asset('images/offer/derevyannaya-lestnica.jpg') }}" alt="Дома из бруса" class="offer-pos__img">
+
+                    <div class="offer-pos__text-block">
+                        <p class="offer-pos__text">Деревянные лестницы</p>
+
+
+
+                    </div>
+
+                </a>
+
+                <a href="{{ url('/stolyarnaya-masterskaya/derevyannye-dveri') }}" class="offer-pos__item">
+                    <img src="{{ URL::asset('images/offer/derevyannaya-dver.jpg') }}" alt="Дома из бруса" class="offer-pos__img">
+
+                    <div class="offer-pos__text-block">
+                        <p class="offer-pos__text">Двери из дерева</p>
+
+
+
+                    </div>
+
+                </a>
+                <a href="{{ url('/stolyarnaya-masterskaya/derevyannye-stoly') }}" class="offer-pos__item">
+                    <img src="{{ URL::asset('images/offer/Derevyannyiy-stol-46.jpg') }}" alt="Дома из бруса" class="offer-pos__img">
+
+                    <div class="offer-pos__text-block">
+                        <p class="offer-pos__text">Деревянные столы</p>
+
+
+
+                    </div>
+
+                </a>
+                <a href="{{ url('/stolyarnaya-masterskaya/derevyannye-lavki') }}" class="offer-pos__item">
+                    <img src="{{ URL::asset('images/offer/derevyannaya-lavka.png') }}" alt="Дома из бруса" class="offer-pos__img">
+
+                    <div class="offer-pos__text-block">
+                        <p class="offer-pos__text">Дереванные лавки</p>
+
+
+
+                    </div>
+
+                </a>
+                <a href="{{ url('/stolyarnaya-masterskaya/derevyannye-kuhni') }}" class="offer-pos__item">
+                    <img src="{{ URL::asset('images/offer/derevyannaya-kuhnya.jpg') }}" alt="Дома из бруса" class="offer-pos__img">
+
+                    <div class="offer-pos__text-block">
+                        <p class="offer-pos__text">Кухни из дерева</p>
+
+
+
+                    </div>
+
+                </a>
+                <a href="{{ url('/stolyarnaya-masterskaya/derevyannye-ehlementy-interera') }}" class="offer-pos__item">
+                    <img src="{{ URL::asset('images/offer/ehlementy-interera-iz-dereva.jpg') }}" alt="Дома из бруса" class="offer-pos__img">
+
+                    <div class="offer-pos__text-block">
+                        <p class="offer-pos__text">Элементы интерьера</p>
+
+
+
+                    </div>
+
+                </a>
 
 
 
             </div>
+
+
+
         </div>
     </div>
+
+
 
 
 

@@ -14,73 +14,54 @@
 @section('content')
 
 
-
-
-
-
     @component('components.breadcrumb')
-        @slot('title') Строительство из дерева @endslot
+        @slot('title') Каркасные дома @endslot
 
 
 
         @slot('parent') Главная @endslot
 
-        @slot('active') Строительство @endslot
-        @slot('activelink') {{ url('/stroitelstvo') }}  @endslot
 
-        @slot('img') {{ URL::asset('images/banner/1.jpg') }} @endslot
-    @endcomponent
+        @slot('prev') Строительство @endslot
+        @slot('prev-title') @endslot
+        @slot('link') {{ url('/stroitelstvo') }} @endslot
 
 
-    <div class="offer">
+
+
+        @slot('active') Каркасные дома @endslot
+        @slot('activelink')  @endslot
+
+        @slot('img') {{ URL::asset('images/breadcrumbs/karkasnyy_dom_s_mansardoy.jpg') }} @endslot
+@endcomponent
+
+    <div class="offer-pos">
         <div class="container">
-            <div class="offer__inner">
+            <div class="offer-pos__inner">
 
 
-                <h2 class="title">Мы строим:</h2>
+                <h2 class="title">Так же мы строим:</h2>
                 <div class="title__separator"></div>
 
 
 
-                <div class="offer__row">
+                <div class="offer-pos__row">
 
-                    <a href="{{ url('/stroitelstvo/doma-iz-brusa') }}" class="offer__item offer__item--one">
-                        <img src="{{ URL::asset('images/offer/dom-iz-brusa.jpg') }}" alt="Дома из бруса" class="offer__img">
 
-                        <div class="offer__text-block">
-                            <p class="offer__text">Дома из бруса</p>
+                    <a href="{{ url('/stroitelstvo/karkasnye-doma/fahverkovye-doma') }}" class="offer-pos__item">
+                        <img src="{{ URL::asset('images/offer/fahverkovye-doma.png') }}" alt="Дома из профилированного бруса камерной сушки" class="offer-pos__img">
 
-                            <div class="offer__box-arrow">
-
-                            </div>
+                        <div class="offer-pos__text-block">
+                            <p class="offer-pos__text">Фахверковые дома</p>
 
                         </div>
 
                     </a>
+                    <a href="{{ url('/stroitelstvo/karkasnye-doma/barnhouse') }}" class="offer-pos__item">
+                        <img src="{{ URL::asset('images/offer/barnhaus.jpg') }}" alt="Дома из клееного бруса" class="offer-pos__img">
 
-                    <a href="{{ url('/stroitelstvo/karkasnye-doma') }}" class="offer__item offer__item--two">
-                        <img src="{{ URL::asset('images/offer/karkasnyi-dom.jpg') }}" alt="Каркасные дома" class="offer__img">
-
-                        <div class="offer__text-block">
-                            <p class="offer__text">Каркасные дома</p>
-
-                            <div class="offer__box-arrow">
-
-                            </div>
-
-                        </div>
-
-                    </a>
-
-                    <a href="{{ url('/stroitelstvo/derevyannye-bani') }}" class="offer__item offer__item--tree">
-                        <img src="{{ URL::asset('images/offer/3.jpg') }}" alt="Отделка стен" class="offer__img">
-
-                        <div class="offer__text-block">
-                            <p class="offer__text">Бани из дерева</p>
-
-                            <div class="offer__box-arrow">
-
-                            </div>
+                        <div class="offer-pos__text-block">
+                            <p class="offer-pos__text">Барнхаус</p>
 
                         </div>
 
@@ -99,10 +80,12 @@
 
 
 
+
+
     <div class="seotext">
         <div class="container">
             <div class="seotext__inner">
-                <h1 class="title">Строительство</h1>
+                <h1 class="title">Дома из бруса</h1>
                 <div class="title__separator"></div>
 
                 <div class="seotext__text-wrapper">
@@ -117,7 +100,7 @@
 
                     <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi excepturi facere
                         laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt ipsam magni necessitatibus porro quaerat quibusdam rerum, ut!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cumque dolores doloribus earum explicabo labore minima neque reprehenderit.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cumque dolores doloribus earum explicabo labore minima neque reprehenderit.
                         Accusamus aliquid, autem, commodi consequatur cum dolorum, expedita fugit labore natus perspiciatis praesentium tempora voluptate? Delectus
                         dicta dolores eos id incidunt laboriosam magni nostrum odio, possimus quam quas quia quod repudiandae saepe.</p>
 
@@ -126,7 +109,7 @@
 
                 </div>
 
-                    <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">
+                <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">
 
                 <div class="seotext__text-wrapper">
                     <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi excepturi facere
@@ -141,19 +124,19 @@
                     </ul>
                 </div>
 
-                    <div class="seotext__wrapper">
-                        <div>
-                            <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">
-                        </div>
-                        <div>
-                            <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">
-                        </div>
-
+                <div class="seotext__wrapper">
+                    <div>
+                        <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">
                     </div>
+                    <div>
+                        <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">
+                    </div>
+
+                </div>
 
 
                 <div class="seotext__btn-wrapper">
-                    <a href="#" class="btn btn__accent show_popup">Заказать звонок</a>
+                    <a href="#" class="btn btn__accent">Заказать звонок</a>
 
                 </div>
 
@@ -161,12 +144,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
 
 @endsection
 
