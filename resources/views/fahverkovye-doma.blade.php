@@ -45,7 +45,7 @@
     <div class="seotext">
         <div class="container">
             <div class="seotext__inner">
-                <h1 class="title">Дома из бруса</h1>
+                <h1 class="title">Фачверковые дома</h1>
                 <div class="title__separator"></div>
 
                 <div class="seotext__text-wrapper">
@@ -96,7 +96,7 @@
 
 
                 <div class="seotext__btn-wrapper">
-                    <a href="#" class="btn btn__accent">Заказать звонок</a>
+                    <a href="#" class="btn btn__accent show_popup">Заказать звонок</a>
 
                 </div>
 

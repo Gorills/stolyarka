@@ -85,58 +85,48 @@
     <div class="seotext">
         <div class="container">
             <div class="seotext__inner">
-                <h1 class="title">Дома из бруса</h1>
+                <h1 class="title">Каркасные дома</h1>
                 <div class="title__separator"></div>
 
                 <div class="seotext__text-wrapper">
-                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum
-                        eligendi excepturi facere laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt
-                        ipsam magni necessitatibus porro quaerat quibusdam rerum, ut!</p>
+                    <p class="seotext__text">
 
-                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi
-                        excepturi facere laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt ipsam magni necessitatibus
-                        porro quaerat quibusdam rerum, ut! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eaque eius enim eos hic, id,
-                        illum impedit ipsam ipsum libero non nulla obcaecati odit porro quam quidem suscipit unde veritatis.</p>
 
-                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi excepturi facere
-                        laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt ipsam magni necessitatibus porro quaerat quibusdam rerum, ut!
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cumque dolores doloribus earum explicabo labore minima neque reprehenderit.
-                        Accusamus aliquid, autem, commodi consequatur cum dolorum, expedita fugit labore natus perspiciatis praesentium tempora voluptate? Delectus
-                        dicta dolores eos id incidunt laboriosam magni nostrum odio, possimus quam quas quia quod repudiandae saepe.</p>
+                        Мы тоже не стоим на месте и развиваемся и можем предложить Вам строительство таких современных домов как "файхверк" и "барн хаус". Наши дизайнеры учтут Ваши пожелания, они могут создать неповторимый и современный дом вашей мечты
+                    </p>
 
-                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi excepturi facere
-                        laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt ipsam magni necessitatibus porro quaerat quibusdam rerum, ut!</p>
+
 
                 </div>
 
-                <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">
+{{--                <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">--}}
 
-                <div class="seotext__text-wrapper">
-                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi excepturi facere
-                        laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt ipsam magni necessitatibus porro quaerat quibusdam rerum, ut!</p>
+{{--                <div class="seotext__text-wrapper">--}}
+{{--                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi excepturi facere--}}
+{{--                        laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt ipsam magni necessitatibus porro quaerat quibusdam rerum, ut!</p>--}}
 
-                    <ul class="seotext__list">
-                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>
-                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>
-                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>
-                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>
+{{--                    <ul class="seotext__list">--}}
+{{--                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>--}}
+{{--                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>--}}
+{{--                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>--}}
+{{--                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>--}}
 
-                    </ul>
-                </div>
+{{--                    </ul>--}}
+{{--                </div>--}}
 
-                <div class="seotext__wrapper">
-                    <div>
-                        <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">
-                    </div>
-                    <div>
-                        <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">
-                    </div>
+{{--                <div class="seotext__wrapper">--}}
+{{--                    <div>--}}
+{{--                        <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">--}}
+{{--                    </div>--}}
+{{--                    <div>--}}
+{{--                        <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">--}}
+{{--                    </div>--}}
 
-                </div>
+{{--                </div>--}}
 
 
                 <div class="seotext__btn-wrapper">
-                    <a href="#" class="btn btn__accent">Заказать звонок</a>
+                    <a href="#" class="btn btn__accent show_popup">Заказать звонок</a>
 
                 </div>
 

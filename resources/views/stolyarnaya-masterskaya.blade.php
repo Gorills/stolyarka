@@ -132,54 +132,58 @@
     <div class="seotext">
         <div class="container">
             <div class="seotext__inner">
-                <h1 class="title">Строительство</h1>
+                <h1 class="title">Столярная мастерская в Томске</h1>
                 <div class="title__separator"></div>
 
                 <div class="seotext__text-wrapper">
-                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum
-                        eligendi excepturi facere laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt
-                        ipsam magni necessitatibus porro quaerat quibusdam rerum, ut!</p>
+                    <p class="seotext__text">
 
-                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi
-                        excepturi facere laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt ipsam magni necessitatibus
-                        porro quaerat quibusdam rerum, ut! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eaque eius enim eos hic, id,
-                        illum impedit ipsam ipsum libero non nulla obcaecati odit porro quam quidem suscipit unde veritatis.</p>
+                        Так же у нас имеется своя столярная мастерская, которая готова дополнить Ваш интерьер любым эксклюзивным и нестандартным решением. Производство изделий из дерева тоже требует много времени и затрат мастера, знаний в обработке древесины, но конечный результат порадует всех. Не один материал не может сравниться с массивом дерева по многим показателям. Структура дерева - большая палитра, которую использует мастер в изготовлении изделия, которыми могут пользоваться Ваши внуки. Только дерево можно отреставрировать, после чего это изделие снова станет новым.
 
-                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi excepturi facere
-                        laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt ipsam magni necessitatibus porro quaerat quibusdam rerum, ut!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cumque dolores doloribus earum explicabo labore minima neque reprehenderit.
-                        Accusamus aliquid, autem, commodi consequatur cum dolorum, expedita fugit labore natus perspiciatis praesentium tempora voluptate? Delectus
-                        dicta dolores eos id incidunt laboriosam magni nostrum odio, possimus quam quas quia quod repudiandae saepe.</p>
+                        Дерево - экологически чистый и безвредный материал.
 
-                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi excepturi facere
-                        laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt ipsam magni necessitatibus porro quaerat quibusdam rerum, ut!</p>
+                    </p>
 
-                </div>
+{{--                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi--}}
+{{--                        excepturi facere laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt ipsam magni necessitatibus--}}
+{{--                        porro quaerat quibusdam rerum, ut! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eaque eius enim eos hic, id,--}}
+{{--                        illum impedit ipsam ipsum libero non nulla obcaecati odit porro quam quidem suscipit unde veritatis.</p>--}}
 
-                    <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">
+{{--                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi excepturi facere--}}
+{{--                        laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt ipsam magni necessitatibus porro quaerat quibusdam rerum, ut!--}}
+{{--                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cumque dolores doloribus earum explicabo labore minima neque reprehenderit.--}}
+{{--                        Accusamus aliquid, autem, commodi consequatur cum dolorum, expedita fugit labore natus perspiciatis praesentium tempora voluptate? Delectus--}}
+{{--                        dicta dolores eos id incidunt laboriosam magni nostrum odio, possimus quam quas quia quod repudiandae saepe.</p>--}}
 
-                <div class="seotext__text-wrapper">
-                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi excepturi facere
-                        laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt ipsam magni necessitatibus porro quaerat quibusdam rerum, ut!</p>
+{{--                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi excepturi facere--}}
+{{--                        laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt ipsam magni necessitatibus porro quaerat quibusdam rerum, ut!</p>--}}
 
-                    <ul class="seotext__list">
-                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>
-                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>
-                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>
-                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>
+{{--                </div>--}}
 
-                    </ul>
-                </div>
+{{--                    <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">--}}
 
-                    <div class="seotext__wrapper">
-                        <div>
-                            <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">
-                        </div>
-                        <div>
-                            <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">
-                        </div>
+{{--                <div class="seotext__text-wrapper">--}}
+{{--                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi excepturi facere--}}
+{{--                        laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt ipsam magni necessitatibus porro quaerat quibusdam rerum, ut!</p>--}}
 
-                    </div>
+{{--                    <ul class="seotext__list">--}}
+{{--                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>--}}
+{{--                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>--}}
+{{--                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>--}}
+{{--                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>--}}
+
+{{--                    </ul>--}}
+{{--                </div>--}}
+
+{{--                    <div class="seotext__wrapper">--}}
+{{--                        <div>--}}
+{{--                            <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">--}}
+{{--                        </div>--}}
+{{--                        <div>--}}
+{{--                            <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">--}}
+{{--                        </div>--}}
+
+{{--                    </div>--}}
 
 
                 <div class="seotext__btn-wrapper">

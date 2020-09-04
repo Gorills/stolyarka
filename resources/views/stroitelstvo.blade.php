@@ -102,54 +102,20 @@
     <div class="seotext">
         <div class="container">
             <div class="seotext__inner">
-                <h1 class="title">Строительство</h1>
+                <h1 class="title">Строительство домов из дерева в Томске</h1>
                 <div class="title__separator"></div>
 
                 <div class="seotext__text-wrapper">
-                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum
-                        eligendi excepturi facere laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt
-                        ipsam magni necessitatibus porro quaerat quibusdam rerum, ut!</p>
+                    <p class="seotext__text">Строительство домов из дерева древнейший и самый распространенный на терриротии России, а в особенности Сибири способ строительства.
+                        Основываясь на опыте предков и используя современные технологии, позволяют нам осуществлять самые нереальные проекты и архитектурные решения, в отличии от каменных домов. Дома построенные из кедра считаются экологически безопасными, т.к. кедр и осина имеют свойства уничтожать вредные для человека бактерии, Каждле дерево имеет свои свойства и должно использоваться по своем у назначению.</p>
 
-                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi
-                        excepturi facere laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt ipsam magni necessitatibus
-                        porro quaerat quibusdam rerum, ut! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eaque eius enim eos hic, id,
-                        illum impedit ipsam ipsum libero non nulla obcaecati odit porro quam quidem suscipit unde veritatis.</p>
+                    <p class="seotext__text">
+                        Дома делятся на множество типов с разными технологиями строительства. Именно этот фактор влияет на время возведения,
+                        финишную отделку, как внутри так и снаружи, но и соответственно на конечную сумму, которую вы планируете потратить на
+                        строительство в дома нашей мечты.
+                    </p>
 
-                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi excepturi facere
-                        laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt ipsam magni necessitatibus porro quaerat quibusdam rerum, ut!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cumque dolores doloribus earum explicabo labore minima neque reprehenderit.
-                        Accusamus aliquid, autem, commodi consequatur cum dolorum, expedita fugit labore natus perspiciatis praesentium tempora voluptate? Delectus
-                        dicta dolores eos id incidunt laboriosam magni nostrum odio, possimus quam quas quia quod repudiandae saepe.</p>
 
-                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi excepturi facere
-                        laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt ipsam magni necessitatibus porro quaerat quibusdam rerum, ut!</p>
-
-                </div>
-
-                    <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">
-
-                <div class="seotext__text-wrapper">
-                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi excepturi facere
-                        laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt ipsam magni necessitatibus porro quaerat quibusdam rerum, ut!</p>
-
-                    <ul class="seotext__list">
-                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>
-                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>
-                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>
-                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>
-
-                    </ul>
-                </div>
-
-                    <div class="seotext__wrapper">
-                        <div>
-                            <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">
-                        </div>
-                        <div>
-                            <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">
-                        </div>
-
-                    </div>
 
 
                 <div class="seotext__btn-wrapper">

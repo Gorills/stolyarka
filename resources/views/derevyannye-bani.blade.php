@@ -90,58 +90,46 @@
     <div class="seotext">
         <div class="container">
             <div class="seotext__inner">
-                <h1 class="title">Дома из бруса</h1>
+                <h1 class="title">Строительство бань в Томске</h1>
                 <div class="title__separator"></div>
 
                 <div class="seotext__text-wrapper">
-                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum
-                        eligendi excepturi facere laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt
-                        ipsam magni necessitatibus porro quaerat quibusdam rerum, ut!</p>
+                    <p class="seotext__text">
+                        Ну и какой же дом без бани в России. Особенно старшее поколение любит баню, особенно 21 декабря. Мы так же можем срубить баню по черной, либо в современном стиле с разными парными и жилым вторым этажом. Это так же популярно для тех, кому нужен дом для отдыха или дача для постоянного проживания.
 
-                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi
-                        excepturi facere laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt ipsam magni necessitatibus
-                        porro quaerat quibusdam rerum, ut! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eaque eius enim eos hic, id,
-                        illum impedit ipsam ipsum libero non nulla obcaecati odit porro quam quidem suscipit unde veritatis.</p>
+                    </p>
 
-                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi excepturi facere
-                        laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt ipsam magni necessitatibus porro quaerat quibusdam rerum, ut!
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cumque dolores doloribus earum explicabo labore minima neque reprehenderit.
-                        Accusamus aliquid, autem, commodi consequatur cum dolorum, expedita fugit labore natus perspiciatis praesentium tempora voluptate? Delectus
-                        dicta dolores eos id incidunt laboriosam magni nostrum odio, possimus quam quas quia quod repudiandae saepe.</p>
-
-                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi excepturi facere
-                        laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt ipsam magni necessitatibus porro quaerat quibusdam rerum, ut!</p>
 
                 </div>
 
-                <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">
+{{--                <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">--}}
 
-                <div class="seotext__text-wrapper">
-                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi excepturi facere
-                        laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt ipsam magni necessitatibus porro quaerat quibusdam rerum, ut!</p>
+{{--                <div class="seotext__text-wrapper">--}}
+{{--                    <p class="seotext__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum eligendi excepturi facere--}}
+{{--                        laudantium veritatis! Asperiores dignissimos eos esse hic in, incidunt ipsam magni necessitatibus porro quaerat quibusdam rerum, ut!</p>--}}
 
-                    <ul class="seotext__list">
-                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>
-                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>
-                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>
-                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>
+{{--                    <ul class="seotext__list">--}}
+{{--                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>--}}
+{{--                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>--}}
+{{--                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>--}}
+{{--                        <li class="seotext__item">Lorem ipsum dolor sit amet.</li>--}}
 
-                    </ul>
-                </div>
+{{--                    </ul>--}}
+{{--                </div>--}}
 
-                <div class="seotext__wrapper">
-                    <div>
-                        <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">
-                    </div>
-                    <div>
-                        <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">
-                    </div>
+{{--                <div class="seotext__wrapper">--}}
+{{--                    <div>--}}
+{{--                        <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">--}}
+{{--                    </div>--}}
+{{--                    <div>--}}
+{{--                        <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">--}}
+{{--                    </div>--}}
 
-                </div>
+{{--                </div>--}}
 
 
                 <div class="seotext__btn-wrapper">
-                    <a href="#" class="btn btn__accent">Заказать звонок</a>
+                    <a href="#" class="btn btn__accent show_popup">Заказать звонок</a>
 
                 </div>
 

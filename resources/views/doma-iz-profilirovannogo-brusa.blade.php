@@ -56,6 +56,7 @@
                         усадку, экологически безопасен и хорошо пропускает воздух.
                     </p>
 
+
                     <p class="seotext__text">
                         Строительство дома из профилированного бруса «под ключ» — процесс, последовательно проходящий в несколько этапов:
                     </p>
@@ -69,26 +70,30 @@
 
                     </ul>
 
-
-
-                </div>
-
-
-
-
-                <div class="seotext__wrapper">
-                    <div>
-                        <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">
-                    </div>
-                    <div>
-                        <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">
-                    </div>
+                    <p class="seotext__text">
+                        Наиболее распространенные варианты этого дома с бруса  профилированного на заводе, либо строганного нашими мастерами,
+                        такой дом лучше всего возводить зимой, т.к. зимний лес меньше всего содержит влаги, но такому дому нужна усадка и к финишной
+                        отделке Вы можете приступить на следующий год.
+                    </p>
 
                 </div>
+
+
+
+
+{{--                <div class="seotext__wrapper">--}}
+{{--                    <div>--}}
+{{--                        <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">--}}
+{{--                    </div>--}}
+{{--                    <div>--}}
+{{--                        <img src="{{ URL::asset('images/offer/1.jpg') }}" alt="" class="seotext__img">--}}
+{{--                    </div>--}}
+
+{{--                </div>--}}
 
 
                 <div class="seotext__btn-wrapper">
-                    <a href="#" class="btn btn__accent">Заказать звонок</a>
+                    <a href="#" class="btn btn__accent show_popup">Заказать звонок</a>
 
                 </div>
 
