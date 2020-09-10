@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
-@section('title', '')
-@section('description', '')
+@section('title', 'Дома из клееного бруса в Томске | Святобор-строй')
+@section('description', 'Заказать строительство дома из клееного бруса в Томске по низким ценам.')
 @section('keywords', '')
 @section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
+@section('og:title', 'Дома из клееного бруса в Томске | Святобор-строй')
+@section('og:description', 'Заказать строительство дома из клееного бруса в Томске по низким ценам.')
 @section('og:url', '')
-@section('twitter:title', '')
-@section('twitter:description', '')
+@section('twitter:title', 'Дома из клееного бруса в Томске | Святобор-строй')
+@section('twitter:description', 'Заказать строительство дома из клееного бруса в Томске по низким ценам.')
 
 
 @section('content')
@@ -45,7 +45,7 @@
     <div class="seotext">
         <div class="container">
             <div class="seotext__inner">
-                <h1 class="title">Дома из бруса</h1>
+                <h1 class="title">Дома из клееного бруса</h1>
                 <div class="title__separator"></div>
 
                 <div class="seotext__text-wrapper">

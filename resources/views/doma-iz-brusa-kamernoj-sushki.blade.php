@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
-@section('title', '')
-@section('description', '')
+@section('title', 'Дома из бруса камерной сушки в Томске | Святобор-строй')
+@section('description', 'Заказать строительство дома из бруса камерной сушки в Томске по низеим ценам. ')
 @section('keywords', '')
 @section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
+@section('og:title', 'Дома из бруса камерной сушки в Томске | Святобор-строй')
+@section('og:description', 'Заказать строительство дома из бруса камерной сушки в Томске по низеим ценам. ')
 @section('og:url', '')
-@section('twitter:title', '')
-@section('twitter:description', '')
+@section('twitter:title', 'Дома из бруса камерной сушки в Томске | Святобор-строй')
+@section('twitter:description', 'Заказать строительство дома из бруса камерной сушки в Томске по низеим ценам. ')
 
 
 @section('content')

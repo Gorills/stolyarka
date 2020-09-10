@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
-@section('title', '')
-@section('description', '')
+@section('title', 'Строительство деревянных домов в Томске | Святобор-строй')
+@section('description', 'Дома из профилированного, клееного бруса и оцилиндрованного бревна. Строительство домов по Вашим проектам и недорогие типовые решения. ')
 @section('keywords', '')
 @section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
+@section('og:title', 'Строительство деревянных домов в Томске | Святобор-строй')
+@section('og:description', 'Дома из профилированного, клееного бруса и оцилиндрованного бревна. Строительство домов по Вашим проектам и недорогие типовые решения. ')
 @section('og:url', '')
-@section('twitter:title', '')
-@section('twitter:description', '')
+@section('twitter:title', 'Строительство деревянных домов в Томске | Святобор-строй')
+@section('twitter:description', 'Дома из профилированного, клееного бруса и оцилиндрованного бревна. Строительство домов по Вашим проектам и недорогие типовые решения. ')
 
 
 @section('content')
@@ -183,7 +183,7 @@
                 <div class="about__column">
                     <p class="about__text">
                         Всем привет! Мы совсем недавно открывшаяся компания, но у нас уже есть огромный опыт работы в сфере
-                        деревянного домостроения. В нашей команде есть специалисты по проектированию и дозайнерским решениям, что дает
+                        деревянного домостроения. В нашей команде есть специалисты по проектированию и дизайнерским решениям, что дает
                         нам возможность воплотить все ваши задумки визуально. При разработке проекта вашего дома и строительстве мы
                         отталкиваемся от таких параметров как:
                     </p>
@@ -221,20 +221,19 @@
 
             <div class="main__row">
 
-                <div class="main__item">
-                    <i class="main__icon fa fa-car"></i>
-                    <p class="main__text">Бесплатный выезд
-                        на объект и замер</p>
-                </div>
-                <div class="main__item">
-                    <i class="main__icon fa fa-certificate"></i>
-                    <p class="main__text">Гарантия 2 года
-                        на любое изделие</p>
+                <div class="why__item">
+                    <i class="why__icon fa fa-car"></i>
+                    <p class="why__text">Бесплатный выезд на объект и расчет сметы на строительство</p>
                 </div>
 
-                <div class="main__item">
-                    <i class="main__icon fa fa-money"></i>
-                    <p class="main__text">Выгодые цены</p>
+                <div class="why__item">
+                    <i class="why__icon fa fa-certificate"></i>
+                    <p class="why__text">Гарантия 20 лет, с последующим обслуживанием</p>
+                </div>
+
+                <div class="why__item">
+                    <i class="why__icon fa fa-money"></i>
+                    <p class="why__text">Выгодные цены и индивидуальный подход</p>
                 </div>
 
 

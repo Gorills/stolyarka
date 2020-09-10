@@ -42,9 +42,13 @@
                         <a class="header__link" href="{{ url('/stolyarnaya-masterskaya') }}" itemprop="url">Столярная мастерская</a>
                         <meta itemprop="name" content="Столярная мастерская" />
                     </li>
+                    <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
+                        <a class="header__link" href="{{ url('/dizajn-proekty') }}" itemprop="url">Дизайн-проекты</a>
+                        <meta itemprop="name" content="Столярная мастерская" />
+                    </li>
 
                     <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
-                        <a class="header__link" href="{{ url('/kontakty') }}" itemprop="url">Контакты</a>
+                        <a class="header__link" href="{{ url('/contacts') }}" itemprop="url">Контакты</a>
                         <meta itemprop="name" content="Контакты" />
                     </li>
                 </ul>
@@ -52,7 +56,7 @@
 
             <div class="header__phone">
                 <i class="fas fa-phone-alt"></i>
-                <a href="#" class="header__phone-link">8 (3822) 256-256</a>
+                <a href="tel:89832396889" class="header__phone-link">+7 983 239-68-89</a>
 
 
             </div>

@@ -13,7 +13,7 @@
 
                 <div class="footer__contacts-wrapper">
                     <i class="icon fa fa-phone"></i>
-                    <a href="tel:89528052426" class="footer__contacts-link">8 (952) 805 24-26</a>
+                    <a href="tel:89832396889" class="footer__contacts-link">+7 983 239-68-89</a>
                 </div>
                 <div class="footer__contacts-wrapper">
                     <i class="icon fa fa-clock-o"></i>

@@ -16,6 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/dizajn-proekty', function () {
+    return view('dizajn-proekty');
+});
+Route::get('/contacts', function () {
+    return view('contacts');
+});
 
 Route::get('/stroitelstvo', function () {
     return view('stroitelstvo');

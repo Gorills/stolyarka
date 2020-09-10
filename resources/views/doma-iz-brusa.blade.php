@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
-@section('title', '')
-@section('description', '')
+@section('title', 'Заказать дом из бруса в Томске | Святобор-строй')
+@section('description', 'Строительство домов из бруса в Томске по индивидуальным проектам. Выезд и замер бесплатно.')
 @section('keywords', '')
 @section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
+@section('og:title', 'Заказать дом из бруса в Томске | Святобор-строй')
+@section('og:description', 'Строительство домов из бруса в Томске по индивидуальным проектам. Выезд и замер бесплатно.')
 @section('og:url', '')
-@section('twitter:title', '')
-@section('twitter:description', '')
+@section('twitter:title', 'Заказать дом из бруса в Томске | Святобор-строй')
+@section('twitter:description', 'Строительство домов из бруса в Томске по индивидуальным проектам. Выезд и замер бесплатно.')
 
 
 @section('content')

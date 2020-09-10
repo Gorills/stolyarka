@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
-@section('title', '')
-@section('description', '')
+@section('title', 'Деревянные лестницы | Святобор-строй')
+@section('description', 'Заказать деревянную лестницу в Томске по индивидуальному проекту.')
 @section('keywords', '')
 @section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
+@section('og:title', 'Деревянные лестницы | Святобор-строй')
+@section('og:description', 'Заказать деревянную лестницу в Томске по индивидуальному проекту.')
 @section('og:url', '')
-@section('twitter:title', '')
-@section('twitter:description', '')
+@section('twitter:title', 'Деревянные лестницы | Святобор-строй')
+@section('twitter:description', 'Заказать деревянную лестницу в Томске по индивидуальному проекту.')
 
 
 @section('content')
@@ -38,7 +38,7 @@
     <div class="seotext">
         <div class="container">
             <div class="seotext__inner">
-                <h1 class="title">Дома из бруса</h1>
+                <h1 class="title">Деревянные лестницы в Томске</h1>
                 <div class="title__separator"></div>
 
                 <div class="seotext__text-wrapper">
