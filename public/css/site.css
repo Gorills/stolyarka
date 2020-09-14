@@ -617,7 +617,6 @@ button {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "one two tree";
 }
 
 @media only screen and (max-width: 768px) {
@@ -639,42 +638,6 @@ button {
   display: block;
   text-decoration: none;
   color: #666666;
-}
-
-.offer__item--one {
-  grid-area: one;
-}
-
-.offer__item--one:hover .offer__box-arrow::before {
-  width: 60px !important;
-}
-
-.offer__item--two {
-  grid-area: two;
-}
-
-.offer__item--tree {
-  grid-area: tree;
-}
-
-.offer__item--for {
-  grid-area: for;
-}
-
-.offer__item--five {
-  grid-area: five;
-}
-
-.offer__item--six {
-  grid-area: six;
-}
-
-.offer__item--seven {
-  grid-area: seven;
-}
-
-.offer__item--seven:hover .offer__box-arrow::before {
-  width: 60px !important;
 }
 
 .offer__item:hover .offer__img {

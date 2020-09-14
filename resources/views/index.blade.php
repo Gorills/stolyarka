@@ -88,7 +88,7 @@
 
             <div class="offer__row">
 
-                <a href="{{ url('/stroitelstvo/doma-iz-brusa') }}" class="offer__item offer__item--one">
+                <a href="{{ url('/stroitelstvo/doma-iz-brusa') }}" class="offer__item">
                     <img src="{{ URL::asset('images/offer/dom-iz-brusa.jpg') }}" alt="ремонт квартир" class="offer__img">
 
                     <div class="offer__text-block">
@@ -104,7 +104,7 @@
 
 
 
-                <a href="{{ url('/stroitelstvo/derevyannye-bani') }}" class="offer__item offer__item--two">
+                <a href="{{ url('/stroitelstvo/derevyannye-bani') }}" class="offer__item">
                     <img src="{{ URL::asset('images/offer/3.jpg') }}" alt="Отделка стен" class="offer__img">
 
                     <div class="offer__text-block">
@@ -120,7 +120,7 @@
 
 
 
-                <a href="{{ url('/stolyarnaya-masterskaya') }}" class="offer__item offer__item--tree">
+                <a href="{{ url('/stolyarnaya-masterskaya') }}" class="offer__item">
                     <img src="{{ URL::asset('images/offer/7.jpg') }}" alt="Ремонт офисов" class="offer__img">
 
                     <div class="offer__text-block">
@@ -189,7 +189,7 @@
                     </p>
                     <ul>
                         <li>Особенности участка, на котором будет стоять ваш дом</li>
-                        <li>Исследования почты и грунта на вашем участке</li>
+                        <li>Исследования почвы и грунта на вашем участке</li>
                     </ul>
 
                 </div>

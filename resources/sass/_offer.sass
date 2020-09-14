@@ -15,7 +15,7 @@
         display: grid
         grid-gap: 20px
         grid-template-columns: repeat(3, 1fr)
-        grid-template-areas: 'one two tree'
+
         @media only screen and (max-width: 768px)
             grid-template-columns: repeat(2, 1fr)
 
@@ -32,27 +32,9 @@
         text-decoration: none
 
         color: $color-fonts
-        &--one
-            grid-area: one
-            &:hover .offer__box-arrow::before
-                width: 60px!important
 
 
 
-        &--two
-            grid-area: two
-        &--tree
-            grid-area: tree
-        &--for
-            grid-area: for
-        &--five
-            grid-area: five
-        &--six
-            grid-area: six
-        &--seven
-            grid-area: seven
-            &:hover .offer__box-arrow::before
-                width: 60px!important
         &:hover .offer__img
             transform: scale(1)
         &:hover .offer__text-block

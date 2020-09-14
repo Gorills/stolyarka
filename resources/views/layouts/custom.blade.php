@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="{{URL::asset('css/site.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('css/site.css?').('v.1.0.1')}}">
     <script src="https://kit.fontawesome.com/0af96d350a.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <title>@yield('title')</title>
@@ -53,22 +53,14 @@
 <script type="application/ld+json"> {
     "@context": "http://schema.org",
     "@type": "Organization",
-    "name": "ООО Руд Медиум",
-    "alternateName": "Руд Медиум",
-    "description": "Бетон, раствор, тортуарная плитка",
-    "url": "https://beton70.com/",
-    "email": "beton70com@yandex.ru",
-    "legalName": "Руд Медиум",
-    "logo": "https://beton70.com/images/logo.png",
-    "address": {
-      "@type": "PostalAddress",
-      "addressCountry": "RU",
-      "addressLocality": "Томск",
-      "addressRegion": "Томская область",
-      "postalCode": "634021",
-      "streetAddress": "ул. Шевченко, 49б ст 6"
-    },
-    "telephone": "+73822500200"
+    "name": "Святобор-строй",
+    "alternateName": "Святобор-строй",
+    "description": "Строительство домов из дерева",
+    "url": "https://svyatoborstroi.ru/",
+    "email": "123456@yandex.ru",
+    "legalName": "Святобор-строй",
+    "logo": "https://svyatoborstroi.ru/images/logo.png",
+    "telephone": "+79832396889"
   }
 </script>
 
