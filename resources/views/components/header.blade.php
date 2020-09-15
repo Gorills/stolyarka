@@ -43,7 +43,7 @@
                         <meta itemprop="name" content="Столярная мастерская" />
                     </li>
                     <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
-                        <a class="header__link" href="{{ url('/dizajn-proekty') }}" itemprop="url">Дизайн-проекты</a>
+                        <a class="header__link" href="{{ url('/dizajn-proekty') }}" itemprop="url">Проектирование домов</a>
                         <meta itemprop="name" content="Столярная мастерская" />
                     </li>
 
@@ -56,7 +56,7 @@
 
             <div class="header__phone">
                 <i class="fas fa-phone-alt"></i>
-                <a href="tel:89832396889" class="header__phone-link">+7 983 239-68-89</a>
+                <a href="tel:83822300386" class="header__phone-link">+7 (3822) 30-03-86</a>
 
 
             </div>

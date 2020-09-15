@@ -42,8 +42,8 @@
                 <h1 class="title">Контакты</h1>
                 <div class="title__separator"></div>
                 <div class="contacts__wrapper">
-                    <a href="" class="contacts__link"><i class="fas fa-phone"></i> +7 983 239-68-89</a>
-                    <a href="" class="contacts__link"><i class="fas fa-envelope"></i> 123456@yandex.ru</a>
+                    <a href="tel:83822300386" class="contacts__link"><i class="fas fa-phone"></i> +7 (3822) 30-03-86</a>
+                    <a href="mailto:SV300386@yandex.ru" class="contacts__link"><i class="fas fa-envelope"></i> SV300386@yandex.ru</a>
                 </div>
 
 
