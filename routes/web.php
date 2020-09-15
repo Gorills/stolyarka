@@ -118,7 +118,9 @@ Route::get('/stolyarnaya-masterskaya/derevyannye-ehlementy-interera', function (
     return view('derevyannye-ehlementy-interera');
 });
 
+Route::get('/sendemail', 'SendEmailController@index');
 
+Route::post('/sendemail/send', 'SendEmailController@send');
 
 Auth::routes();
 
