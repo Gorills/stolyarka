@@ -28,7 +28,7 @@
                    <p>Дома из бруса</p>
 
                 </div>
-                <a href="{{ url('/stroitelstvo/derevyannye-doma') }}" class="btn btn__accent">Подробнее</a>
+                <a href="{{ url('/stroitelstvo/doma-iz-brusa') }}" class="btn btn__accent">Подробнее</a>
 
 
             </div>
@@ -45,7 +45,7 @@
                     <p>Бани из дерева</p>
 
                 </div>
-                <a href="#" class="btn btn__accent">Подробнее</a>
+                <a href="{{ url('/stroitelstvo/derevyannye-bani') }}" class="btn btn__accent">Подробнее</a>
 
 
             </div>
@@ -62,7 +62,7 @@
                     <p>Столярная мастерская</p>
 
                 </div>
-                <a href="#" class="btn btn__accent">Подробнее</a>
+                <a href="{{ url('/stolyarnaya-masterskaya') }}" class="btn btn__accent">Подробнее</a>
 
 
             </div>
