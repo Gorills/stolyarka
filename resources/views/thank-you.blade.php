@@ -15,10 +15,10 @@
 
 
 
-    <div class="razrab">
+    <div class="thank-you">
         <div class="container">
-            <div class="razrab__inner">
-                <h1 class="razrab__title">Ваша заявка принята! Мы свяжемся с вами в ближайшее время!</h1>
+            <div class="thank-you__inner">
+                <h1 class="thank-you__title">Ваша заявка принята! Мы свяжемся с вами в ближайшее время!</h1>
             </div>
         </div>
     </div>
